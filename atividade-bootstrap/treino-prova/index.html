@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Início</li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li>Serviços</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Site</h1>
+        <form action="cadastro.php" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+
+                    <label for="num">Número:</label>
+                    <input type="number" name="num" id="num">
+
+                    <label for="age">Idade:</label>
+                    <input type="date" name="age" id="age">
+                </fieldset>
+
+                <fieldset id="sobre">
+                    <legend>Aleatório</legend>
+                    <label for="text">Mensagem:</label>
+                    <input type="text" style="height: 200px; width: 500px;">
+
+                    <label for="color">Cor:</label>
+                    <input type="color" name="color" id="color">
+
+                    <label for="termos">Termos de uso</label>
+                    <input type="checkbox" name="termos" id="termos">
+
+                    <input type="radio" name="sexo" id="masculino" value="masculino" class="sexo">
+                    <label for="masculino" class="sexo">Masculino</label>
+
+                    <input type="radio" name="sexo" id="feminino" value="feminino" class="sexo">
+                    <label for="feminino" class="sexo">Feminino</label>
+                </fieldset>
+
+                <button type="submit"><a href="index02.html">Enviar</a></button>
+        </form>
+    </main>
+</body>
+</html>

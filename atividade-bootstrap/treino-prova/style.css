@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset {
+    padding: 20px;
+    height: 100vh;
+}
+
+input, label {
+    display: block;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
